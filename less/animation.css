@@ -1,0 +1,22 @@
+@keyframes back {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: #f0f6f1;
+  }
+  75% {
+    background-color: #e3e9e4;
+  }
+  100% {
+    background-color: #d3d9d4;
+  }
+}
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
